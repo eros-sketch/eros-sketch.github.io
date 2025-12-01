@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Encabezado y menú */
+.main-header {
+    background-color: #283593;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main-header h1 {
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffca28;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #ffca28;
+    color: #283593;
+    border-radius: 5px;
+}
+
+/* Sección principal */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.hardware-img {
+    max-width: 350px;
+    display: block;
+    margin: 15px 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #283593;
+    color: #fff;
+    margin-top: 20px;
+}
